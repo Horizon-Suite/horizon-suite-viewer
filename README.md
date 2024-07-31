@@ -6,6 +6,14 @@ To install the viewer in your Vue 3 project, execute the following command:
 npm i vue-horizon-suite-viewer
 ```
 
+You will also need to install three.js separately, as it is a peer dependency.
+
+```bash
+"peerDependencies": {
+  "three": "^0.164.1"
+},
+```
+
 Then, in your Vue project, use this component:
 
 ```vue
